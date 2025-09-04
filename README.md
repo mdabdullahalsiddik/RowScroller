@@ -46,32 +46,32 @@ import 'package:row_scroller/row_scroller.dart';
 
 ```dart
 RowScroller(
-  products: [
-    ProductModel(
-      id: '1',
-      title: 'Apple iPhone 15 Pro',
-      imageUrl: 'https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-pro.jpg',
-      price: 539.82,
-      offerPrice: 599,
-    ),
-    ProductModel(
-      id: '2',
-      title: 'Samsung Galaxy S25',
-      imageUrl: 'https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s25-sm-s931.jpg',
-      price: 579.94,
-    ),
-    ProductModel(
-      id: '3',
-      title: 'Xiaomi Poco F7',
-      imageUrl: 'https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-f7-new.jpg',
-      price: 329,
-      offerPrice: 383.99,
-    ),
-  ],
-  onTap: (product) {
-    SnackBar snackBar = SnackBar(content: Text('${product.title}'));
-    ScaffoldMessenger.of(context).showSnackBar(snackBar);
-  },
+products: [
+ProductModel(
+id: '1',
+title: 'Apple iPhone 15 Pro',
+imageUrl: 'https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-pro.jpg',
+price: 539.82,
+offerPrice: 599,
+),
+ProductModel(
+id: '2',
+title: 'Samsung Galaxy S25',
+imageUrl: 'https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s25-sm-s931.jpg',
+price: 579.94,
+),
+ProductModel(
+id: '3',
+title: 'Xiaomi Poco F7',
+imageUrl: 'https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-f7-new.jpg',
+price: 329,
+offerPrice: 383.99,
+),
+],
+onTap: (product) {
+SnackBar snackBar = SnackBar(content: Text('${product.title}'));
+ScaffoldMessenger.of(context).showSnackBar(snackBar);
+},
 )
 ```
 
@@ -81,20 +81,20 @@ RowScroller(
 
 ```dart
 RowScroller(
-  products: products,
-  cardLabel: 'NEW',
-  cardLabelColor: Colors.green,
-  priceColor: Colors.red,
-  titleColor: Colors.blueGrey,
-  titleStyle: const TextStyle(
-    fontSize: 15,
-    fontWeight: FontWeight.bold,
-  ),
-  priceStyle: const TextStyle(
-    fontSize: 16,
-    fontWeight: FontWeight.w800,
-    color: Colors.green,
-  ),
+products: products,
+cardLabel: 'NEW',
+cardLabelColor: Colors.green,
+priceColor: Colors.red,
+titleColor: Colors.blueGrey,
+titleStyle: const TextStyle(
+fontSize: 15,
+fontWeight: FontWeight.bold,
+),
+priceStyle: const TextStyle(
+fontSize: 16,
+fontWeight: FontWeight.w800,
+color: Colors.green,
+),
 )
 ```
 
@@ -104,16 +104,16 @@ RowScroller(
 
 ```dart
 RowScroller(
-  products: products,
-  showAddToCart: true,
-  addToCartIcon: Image.asset("assets/images/cart.png", width: 20, height: 20),
-  addToCartColor: Colors.pink,
-  onAddToCart: (p) => debugPrint('Add to cart: ${p.title}'),
+products: products,
+showAddToCart: true,
+addToCartIcon: Image.asset("assets/images/cart.png", width: 20, height: 20),
+addToCartColor: Colors.pink,
+onAddToCart: (p) => debugPrint('Add to cart: ${p.title}'),
 
-  showFavorite: true,
-  favoriteIcon: Image.asset("assets/images/heart.png", width: 20, height: 20),
-  favoriteColor: Colors.pink,
-  onFavoriteToggle: (p) => debugPrint('Favorite: ${p.title}'),
+showFavorite: true,
+favoriteIcon: Image.asset("assets/images/heart.png", width: 20, height: 20),
+favoriteColor: Colors.pink,
+onFavoriteToggle: (p) => debugPrint('Favorite: ${p.title}'),
 )
 ```
 
@@ -123,14 +123,14 @@ RowScroller(
 
 ```dart
 RowScroller(
-  products: products,
-  titlePosition: TextPosition.bottom,
-  showAddToCart: true,
-  addToCartIcon: Icon(Icons.add_shopping_cart, color: Colors.blue, size: 24),
-  addToCartColor: Colors.blue,
-  showFavorite: true,
-  favoriteIcon: Image.asset("assets/icons/heart.png", width: 20, height: 20),
-  favoriteColor: Colors.pink,
+products: products,
+titlePosition: TextPosition.bottom,
+showAddToCart: true,
+addToCartIcon: Icon(Icons.add_shopping_cart, color: Colors.blue, size: 24),
+addToCartColor: Colors.blue,
+showFavorite: true,
+favoriteIcon: Image.asset("assets/icons/heart.png", width: 20, height: 20),
+favoriteColor: Colors.pink,
 )
 ```
 
@@ -162,14 +162,14 @@ RowScroller(
 
 ## 📷 Screenshots
 <p align="center">
-  <img src="https://github.com/mdabdullahalsiddik/row_scroller/blob/main/example/assets/1.png" width="300" style="margin-right: 10px;" />
-  <img src="https://github.com/mdabdullahalsiddik/row_scroller/blob/main/example/assets/2.png" width="300" />
+  <img src="https://github.com/mdabdullahalsiddik/RowScroller/blob/main/assets/1.png" width="300" style="margin-right: 10px;" />
+  <img src="https://github.com/mdabdullahalsiddik/RowScroller/blob/main/assets/2.png" width="300" />
 </p>
 
 
 
 👨‍💻 Developed By
-<p align="center"> <img src="https://github.com/mdabdullahalsiddik/row_scroller/blob/main/example/assets/mdabdullahalsiddik.jpg" width="120" height="120" style="border-radius:50%" /> </p> <h3 align="center">Md. Abdullah Al Siddik</h3> <p align="center"> <a href="https://github.com/mdabdullahalsiddik"> <img src="https://img.shields.io/badge/GitHub-mdabdullahalsiddik-black?logo=github" /> </a> <a href="mailto:abdullahsiddik.dev@gmail.com"> <img src="https://img.shields.io/badge/Email-abdullahsiddik.dev%40gmail.com-red?logo=gmail" /> </a> </p>
+<p align="center"> <img src="https://github.com/mdabdullahalsiddik/RowScroller/blob/main/assets/mdabdullahalsiddik.jpg" width="120" height="120" style="border-radius:50%" /> </p> <h3 align="center">Md. Abdullah Al Siddik</h3> <p align="center"> <a href="https://github.com/mdabdullahalsiddik"> <img src="https://img.shields.io/badge/GitHub-mdabdullahalsiddik-black?logo=github" /> </a> <a href="mailto:abdullahsiddik.dev@gmail.com"> <img src="https://img.shields.io/badge/Email-abdullahsiddik.dev%40gmail.com-red?logo=gmail" /> </a> </p>
 
 ---
 
