@@ -162,16 +162,15 @@ favoriteColor: Colors.pink,
 
 ## 📷 Screenshots
 <p align="center">
-  <img src="https://github.com/mdabdullahalsiddik/RowScroller/blob/main/assets/1.png" width="300" style="margin-right: 10px;" />
-  <img src="https://github.com/mdabdullahalsiddik/RowScroller/blob/main/assets/2.png" width="300" />
+  <img src="https://raw.githubusercontent.com/mdabdullahalsiddik/RowScroller/main/assets/1.png" width="300" style="margin-right: 10px;" />
+  <img src="https://raw.githubusercontent.com/mdabdullahalsiddik/RowScroller/main/assets/2.png" width="300" />
 </p>
 
 
 
 👨‍💻 Developed By
-<p align="center"> <img src="https://github.com/mdabdullahalsiddik/RowScroller/blob/main/assets/mdabdullahalsiddik.jpg" width="120" height="120" style="border-radius:50%" /> </p> <h3 align="center">Md. Abdullah Al Siddik</h3> <p align="center"> <a href="https://github.com/mdabdullahalsiddik"> <img src="https://img.shields.io/badge/GitHub-mdabdullahalsiddik-black?logo=github" /> </a> <a href="mailto:abdullahsiddik.dev@gmail.com"> <img src="https://img.shields.io/badge/Email-abdullahsiddik.dev%40gmail.com-red?logo=gmail" /> </a> </p>
+<p align="center"> <img src="https://raw.githubusercontent.com/mdabdullahalsiddik/RowScroller/main/assets/mdabdullahalsiddik.jpg" width="120" height="120" style="border-radius:50%" /> </p> <h3 align="center">Md. Abdullah Al Siddik</h3> <p align="center"> <a href="https://github.com/mdabdullahalsiddik"> <img src="https://img.shields.io/badge/GitHub-mdabdullahalsiddik-black?logo=github" /> </a> <a href="mailto:mailto:mdabdullahalsiddik.dev@gmail.com"> <img src="https://img.shields.io/badge/Email-mdabdullahalsiddik.dev%40gmail.com-red?logo=gmail" /> </a> </p>
 
----
 
 ## 💡 Contributing
 
